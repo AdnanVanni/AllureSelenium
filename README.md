@@ -1,4 +1,4 @@
-installed 
+Allure report configuration for java selenium with testng and maven
 download zip of allure and add path to env. variables of bin directory of extracted zip.
 Create maven project
 and add following dependencies in pom xml
