@@ -31,6 +31,6 @@ public class class123 {
         D.get("https://www.google.com");
         D.findElement(By.xpath("//*[@class='gLFyf']")).sendKeys("testing google website");
         D.findElement(By.xpath("//*[@class='gLFyf']")).sendKeys(Keys.ENTER);
-       Assert.assertEquals(D.getTitle(),"testing1 google website - Google Search");
+       Assert.assertEquals(D.getTitle(),"testing google website - Google Search");
     }
 }
